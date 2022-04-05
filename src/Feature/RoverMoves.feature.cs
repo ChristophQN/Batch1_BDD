@@ -110,7 +110,7 @@ namespace MarsRovers.Feature
             {
                 this.ScenarioStart();
 #line 6
-        testRunner.Given(string.Format("Rover is in plateau at ({0},{1}) co-ordinates and facing facing {2}", x, y, direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+        testRunner.Given(string.Format("Rover is in plateau at ({0},{1}) co-ordinates and facing {2}", x, y, direction), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 7
         testRunner.When("the rover moves", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");

@@ -7,6 +7,26 @@ namespace MarsRovers
     public string Direction { get; internal set; }
     public Point Position { get; internal set; }
 
+    internal void Move()
+        {
+            if (Direction == "N")
+            {
+                Position.Y = Position.Y + 1;
+            }
+            else if(Direction == "E")
+            {
+                Position.X = Position.X + 1;
+            }
+            else if (Direction == "S")
+            {
+                Position.Y = Position.Y - 1;
+            }
+            else if (Direction == "W")
+            {
+                Position.X = Position.X - 1;
+            }
+        }
+
     internal void Turn(string turnDirection)
     {
       if (turnDirection == "L")
